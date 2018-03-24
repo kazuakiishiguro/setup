@@ -1,5 +1,6 @@
 #!/bin/sh
 
+set -eu
 
 exists() { type -t "$1" > /dev/null 2>&1; }
 
