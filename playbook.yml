@@ -6,9 +6,11 @@
     homebrew_cask_packages:
       - name: appcleaner
       - name: docker
+      - name: evernote
       - name: google-chrome
       - name: slack
       - name: sourcetree
+      - name: spotify
       - name: vagrant
       - name: virtualbox
       - name: visual-studio-code
