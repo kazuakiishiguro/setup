@@ -27,6 +27,7 @@
       - name: python3
       - name: tig
       - name: tmux
+      - name: tree
       - name: zsh
  
   tasks:
