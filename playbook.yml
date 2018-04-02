@@ -15,7 +15,6 @@
       - name: vagrant
       - name: virtualbox
       - name: visual-studio-code
-      - name: zoom
  
     homebrew_packages:
       - name: awscli
