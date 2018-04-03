@@ -8,6 +8,7 @@
       - name: docker
       - name: evernote
       - name: google-chrome
+      - name: sequel-pro
       - name: sketch
       - name: slack
       - name: sourcetree
