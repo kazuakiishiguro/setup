@@ -23,6 +23,7 @@
       - name: docker
       - name: git
       - name: go
+      - name: lua
       - name: pyenv
       - name: python
       - name: python3
