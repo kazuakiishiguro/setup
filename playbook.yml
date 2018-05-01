@@ -13,6 +13,7 @@
       - name: slack
       - name: sourcetree
       - name: spotify
+      - name: telegram
       - name: vagrant
       - name: virtualbox
       - name: visual-studio-code
