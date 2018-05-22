@@ -29,6 +29,7 @@
       - name: pyenv
       - name: python
       - name: python3
+      - name: peco 
       - name: tig
       - name: tmux
       - name: tree
