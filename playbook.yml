@@ -4,10 +4,12 @@
       - caskroom/cask
  
     homebrew_cask_packages:
+      - name: android-studio
       - name: appcleaner
       - name: docker
       - name: evernote
       - name: google-chrome
+      - name: java
       - name: sequel-pro
       - name: sketch
       - name: slack
