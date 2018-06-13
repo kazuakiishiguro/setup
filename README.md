@@ -1,9 +1,7 @@
 # setup
-for my 💻initial setup
+for my homebrew initial setup
 
 ## 👉
 ```sh
-git clone https://github.com/kazuakiishiguro/setup.git
-cd setup
-sh ./install.sh
+curl -s https://raw.githubusercontent.com/kazuakiishiguro/setup/master/install.sh | sh 
 ```
