@@ -26,6 +26,7 @@
       - name: docker
       - name: git
       - name: go
+      - name: fzf
       - name: lua
       - name: reattach-to-user-namespace
       - name: pyenv
