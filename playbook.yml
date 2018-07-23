@@ -4,6 +4,7 @@
       - homebrew/cask
  
     homebrew_cask_packages:
+      - name: android-file-transfer
       - name: android-studio
       - name: appcleaner
       - name: docker
