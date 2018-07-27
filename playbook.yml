@@ -9,6 +9,7 @@
       - name: appcleaner
       - name: docker
       - name: evernote
+      - name: gitter
       - name: google-chrome
       - name: java
       - name: sequel-pro
