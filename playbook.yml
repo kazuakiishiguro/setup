@@ -13,6 +13,7 @@
       - name: gitter
       - name: google-chrome
       - name: java
+      - name: gpg-suite
       - name: sequel-pro
       - name: sketch
       - name: skype
@@ -23,7 +24,7 @@
       - name: vagrant
       - name: virtualbox
       - name: visual-studio-code
- 
+
     homebrew_packages:
       - name: awscli
       - name: ansible
@@ -38,29 +39,29 @@
       - name: pyenv
       - name: python
       - name: python3
-      - name: peco 
+      - name: peco
       - name: tig
       - name: tmux
       - name: tree
       - name: zsh
- 
+
   tasks:
     - name: homebrew update
       homebrew:
         update_homebrew: yes
- 
+
     - name: homebrew tap
       homebrew_tap:
         name: '{{ item }}'
         state: present
       with_items: '{{ homebrew_taps }}'
- 
+
     - name: homebrew cask packages install
       homebrew_cask: name={{ item.name }} state=installed
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"
       with_items: '{{ homebrew_cask_packages }}'
- 
+
     - name: homebrew packages install
       homebrew:
         name: '{{ item.name }}'
