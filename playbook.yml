@@ -26,6 +26,7 @@
     homebrew_packages:
       - name: awscli
       - name: ansible
+	  - name: cmake
       - name: direnv
       - name: docker
       - name: emacs
