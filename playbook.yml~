@@ -8,9 +8,14 @@
       - name: android-studio
       - name: appcleaner
       - name: bettertouchtool
+      - name: dash
       - name: docker
+      - name: evernote
+      - name: firefox
+      - name: gitter
+      - name: google-chrome
+      - name: java
       - name: gpg-suite
-      - name: iterm2
       - name: sequel-pro
       - name: sketch
       - name: skype
@@ -31,9 +36,14 @@
       - name: go
       - name: fzf
       - name: jq
+      - name: lua
+      - name: reattach-to-user-namespace
       - name: pyenv
       - name: python
       - name: python3
+      - name: peco
+      - name: tig
+      - name: tmux
       - name: tree
       - name: zsh
 
