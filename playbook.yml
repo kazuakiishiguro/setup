@@ -37,7 +37,6 @@
       - name: pyenv
       - name: python
       - name: python3
-      - name: rust
       - name: tree
       - name: zsh
 
