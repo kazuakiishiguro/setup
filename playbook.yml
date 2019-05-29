@@ -22,11 +22,12 @@
       - name: vagrant
       - name: virtualbox
       - name: visual-studio-code
+      - name: zoomus
 
     homebrew_packages:
       - name: awscli
       - name: ansible
-	    - name: cmake
+      - name: cmake
       - name: direnv
       - name: docker
       - name: emacs
