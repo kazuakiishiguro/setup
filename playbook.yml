@@ -34,7 +34,6 @@
       - name: emacs
       - name: git
       - name: go
-      - name: fzf
       - name: jq
       - name: nvm
       - name: pyenv
