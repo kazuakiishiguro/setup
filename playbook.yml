@@ -13,6 +13,7 @@
       - name: gpg-suite
       - name: iterm2
       - name: keybase
+      - name: kindle
       - name: sequel-pro
       - name: sketch
       - name: skype
@@ -28,6 +29,7 @@
     homebrew_packages:
       - name: awscli
       - name: ansible
+      - name: bat
       - name: cmake
       - name: direnv
       - name: docker
