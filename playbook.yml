@@ -46,6 +46,7 @@
       - name: tmux
       - name: tmux-mem-cpu-load
       - name: tree
+      - name: wget
       - name: zsh
 
   tasks:
