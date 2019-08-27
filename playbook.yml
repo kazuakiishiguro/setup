@@ -41,8 +41,10 @@
       - name: pyenv
       - name: python
       - name: python3
+      - name: reattach-to-user-namespace
       - name: tig
       - name: tmux
+      - name: tmux-mem-cpu-load
       - name: tree
       - name: zsh
 
