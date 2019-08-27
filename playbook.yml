@@ -12,6 +12,7 @@
       - name: docker
       - name: gpg-suite
       - name: iterm2
+      - name: karabiner-elements
       - name: keybase
       - name: kindle
       - name: sequel-pro
@@ -31,6 +32,8 @@
       - name: ansible
       - name: bat
       - name: cmake
+      - name: coreutils
+      - name: curl
       - name: direnv
       - name: docker
       - name: emacs
