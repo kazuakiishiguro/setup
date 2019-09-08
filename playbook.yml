@@ -2,7 +2,7 @@
   vars:
     homebrew_taps:
       - homebrew/cask
- 
+
     homebrew_cask_packages:
       - name: 1password
       - name: android-file-transfer
@@ -38,6 +38,7 @@
       - name: direnv
       - name: docker
       - name: emacs
+      - name: fzf
       - name: git
       - name: go
       - name: jq
@@ -46,12 +47,15 @@
       - name: python
       - name: python3
       - name: reattach-to-user-namespace
+      - name: rsync
+      - name: rustup-init
       - name: tig
       - name: tmux
       - name: tmux-mem-cpu-load
       - name: tree
       - name: wget
       - name: zsh
+      - name: zsh-completions
 
   tasks:
     - name: homebrew update
