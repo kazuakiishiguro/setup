@@ -31,7 +31,6 @@
     homebrew_packages:
       - name: awscli
       - name: ansible
-      - name: bash-completion
       - name: bat
       - name: cmake
       - name: coreutils
