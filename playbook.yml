@@ -41,6 +41,7 @@
       - name: fzf
       - name: git
       - name: go
+      - name: htop
       - name: hub
       - name: jq
       - name: nvm
