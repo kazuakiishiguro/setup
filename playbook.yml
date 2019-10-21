@@ -51,6 +51,7 @@
       - name: reattach-to-user-namespace
       - name: rsync
       - name: rustup-init
+      - name: stow
       - name: tig
       - name: tmux
       - name: tmux-mem-cpu-load
