@@ -12,7 +12,6 @@
       - name: docker
       - name: gpg-suite
       - name: iterm2
-      - name: karabiner-elements
       - name: keybase
       - name: kindle
       - name: sequel-pro
